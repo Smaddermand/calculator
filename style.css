@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+    
+    
+
+}
+
+
+#container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    
+    
+}
+
+#output{    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: lightgrey;
+    width: 400px;
+    height: 100px;
+    font-size: 45px;
+    
+    
+}
+
+.btn{
+    
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    float:left;
+    font-size: 25px;
+}
+
+.number{
+    background-color: lightsalmon;
+}
+
+.operator{
+    background-color: orange;
+}
+
+.action{
+    background-color: orangered;
+}
